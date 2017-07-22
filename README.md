@@ -1,2 +1,13 @@
 # dev-env
-Development environment
+
+Development environment:
+
+ - Ubuntu 14.04
+ - ansible
+ - Ruby
+ 
+Start with
+
+```
+vagrant up --provision
+```
