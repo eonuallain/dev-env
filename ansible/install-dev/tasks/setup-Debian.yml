@@ -13,3 +13,9 @@
     - ruby-full
     - "{{ ruby_rubygems_package_name }}"
   become: true
+
+  - name: Install git client
+    apt: "name={{ item }} state=present"
+    with_items:
+      - git
+    become: true
